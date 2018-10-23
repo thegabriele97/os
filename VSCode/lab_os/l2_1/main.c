@@ -95,6 +95,7 @@ void recursiveReadR(const char* path, int* count, bool isRecursive) {
         }
     } 
 
+    closedir(dir);
     free(buf);
 }
 

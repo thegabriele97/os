@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/a.out",
-            "args": ["-r", "/home/gabriele97/VSCode"],
+            "args": ["-r", "/home/gabriele97/os/VSCode"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
