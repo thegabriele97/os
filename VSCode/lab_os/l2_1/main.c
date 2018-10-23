@@ -73,7 +73,7 @@ void recursiveReadR(const char* path, int* count, bool isRecursive) {
     struct dirent* currRead;
     DIR* dir;
 
-    buf = malloc((strlen(path) + 1) * sizeof(char));
+    buf = malloc(2 * (strlen(path) + 1) * sizeof(char));
     dir = opendir(path);
 
     if (dir == NULL) {
