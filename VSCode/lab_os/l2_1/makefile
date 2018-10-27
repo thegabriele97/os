@@ -6,8 +6,8 @@ CC=gcc
 OUT=a.out
 
 # targets
-all: 
-	make compile 
+all:
+	make compile
 	make clean
 
 compile:
