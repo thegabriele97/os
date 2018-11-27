@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "dirent.h": "c",
+        "signal.h": "c",
+        "signal-defs.h": "c"
+    }
+}
