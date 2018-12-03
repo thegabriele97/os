@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <unistd.h>
+#include <signal.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 
@@ -13,10 +14,18 @@
 #define CODE_ACK 0x3
 #define CODE_READY 0x4
 
+bool _kill = false;
+
+void _hdl_sigint(int sig) {
+    _kill = true;
+}
+
 void parent(int p_fd_out, int c_fd_in) {
     char buf[BUFFSIZ];
     char code;
     bool ___exit = false;
+
+    signal(SIGINT, SIG_DFL);
 
     while (read(c_fd_in, &code, 0x1) > 0) {
         if (code == CODE_READY) {
@@ -25,27 +34,34 @@ void parent(int p_fd_out, int c_fd_in) {
     }
 
     while (!___exit) {
-        printf("\nInput\t:\t");
-        fflush(stdout);
-        fgets(buf, BUFFSIZ, stdin);
-        buf[strlen(buf) - 1] = '\0';
 
-        code = CODE_READ;
-        write(p_fd_out, &code, 0x1);
-        write(p_fd_out, buf, (strlen(buf) + 1) * sizeof *buf);
+        if (!_kill) {
+            printf("\nInput\t:\t");
+            fflush(stdout);
+            fgets(buf, BUFFSIZ, stdin);
+            buf[strlen(buf) - 1] = '\0';
+
+            code = CODE_READ;
+            write(p_fd_out, &code, 0x1);
+            write(p_fd_out, buf, (strlen(buf) + 1) * sizeof *buf);
+        } else {
+            buf[0] = CODE_EXIT;
+            buf[1] = CODE_CONFIRM_EXIT;
+            write(p_fd_out, buf, 0x2);
+        }
 
         while (read(c_fd_in, &code, 0x1) > 0) {
             read(c_fd_in, buf, BUFFSIZ);
 
             if (code == CODE_ACK) {
-                break;
+                printf("Output\t:\t%s\n", buf);
+                fflush(stdout);
             } else if (CODE_EXIT) {
                 ___exit = true;
             }
-        }
 
-        printf("Output\t:\t%s\n", buf);
-        fflush(stdout);
+            break;
+        }
     }
 }
 
@@ -63,6 +79,7 @@ void child(int p_fd_in, int c_fd_out) {
 
         if (code == CODE_READ) {
             code = CODE_ACK;
+            sleep(1);
             
             sprintf(buf, "%s%s", buf, other_string);
             write(c_fd_out, &code, 0x1);
@@ -75,6 +92,7 @@ void child(int p_fd_in, int c_fd_out) {
         write(c_fd_out, buf, (strlen(buf) + 1) * sizeof *buf);
         
         if (buf[0] == CODE_EXIT) {
+            printf("Exiting..\n");
             break;
         }
     }
