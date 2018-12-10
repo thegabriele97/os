@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#enabling debug
+set -x
+
+#setting up vars
+currTime=$(date)
+
+#printing values
+echo "Hi! You started this proces at $currTime."
+echo "We used \$currTime=\$(date) as var to save current date"
+
+sleep 2
+echo "Bye!!"
+
+#disabling debug
+set +x

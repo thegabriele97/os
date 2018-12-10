@@ -1,0 +1,28 @@
+#!/bin/bash
+
+echo -n 'First number: '
+read n1
+
+echo -n 'Second number: '
+read n2
+
+echo ''
+
+sum=$[n1+n2]
+mul=$[n1*n2]
+
+echo "$n1+$n2 = $sum"
+echo "$n1*$n2 = $mul"
+
+#checking sum
+if [ $[sum%2] -eq 0 ]
+then
+	str="even"
+else
+	str="odd"
+fi
+
+echo "Sum is $str"
+
+exit 0
+

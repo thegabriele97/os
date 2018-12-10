@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for f in $(ls s*) ; do
+	echo $f
+done
+
+i=0
+while [ $i -lt 10 ]; do
+	echo -n "$i "
+	i=$[i+1]
+done
+
+echo ""

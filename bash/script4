@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -n "path: "
+read
+
+if [ -x "$REPLY" ]
+then
+	echo "x" 
+fi

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+i=0
+
+while [ 0 ]; do
+
+    echo -n "Value n$[$i+1]: "
+    read value[$i]
+
+    #ask again if input is null
+    if ! [ ${value[$i]} ]; then
+        continue;
+    fi
+
+    #if input in equal to 0, stop capture
+    if [ ${value[$i]} -eq 0 ]; then
+        break
+    fi
+
+    i=$[i+1]
+
+done
+
+i=$[${#value[*]}-2]
+while [ $i -ge 0 ]; do
+
+    echo -n "${value[$i]} "
+    i=$[i-1]
+
+done
+
+echo ""

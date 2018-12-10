@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#read file name and save it in $fileName
+echo 'input file name:'
+read fileName
+
+#reading file
+read < "$fileName"
+
+#print content
+echo ''
+echo "Content of '$fileName':"
+echo "$REPLY"
+echo ''
+
+exit 0
+
+

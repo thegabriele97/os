@@ -1,0 +1,28 @@
+#!/bin/bash
+
+n1=$1
+n2=$2
+
+if ! [ $# -eq 2 ]; then
+    echo -n 'n1 value: '
+    read n1
+
+    echo -n 'n2 value: '
+    read n2
+fi
+
+i=0
+count=0
+while [ $i -lt $n1 ]; do 
+
+    j=0
+    while [ $j -lt $n2 ]; do
+        echo -n "$count "
+        j=$[j+1]
+        count=$[count+1]
+    done
+
+    echo ""
+    i=$[i+1]
+    
+done

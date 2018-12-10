@@ -1,0 +1,29 @@
+#/bin/bash
+
+src=$1
+dst=$2
+
+if [ $# -lt 2 ]; then
+	echo -n "Source path: "
+	read src
+	
+	echo -n "Destination path: "
+	read dst
+fi
+
+if [ -e "$src" ]; then
+	echo "$src doesn't exist."
+fi
+
+if [ -e "$dst" ]; then 
+	echo "$dst already exists."
+	exit 1
+fi
+
+if ! [ -f "$src" ]; then
+	recursive_option='-r'
+fi
+
+cp $recursive_option -v $src $dst
+
+exit 0
