@@ -1,8 +1,13 @@
-#!/bin/bash
+#!/bin/bash 
 
-echo -n "Directory: "
+if ! [ "$2" ]; then
+	echo -n "Directory: "
+fi
 read dir
-echo -n "Do you want to apply modifies on file systems? (y/n): "
+
+if ! [ "$2" ]; then
+	echo -n "Do you want to apply modifies on file systems? (y/n): "
+fi
 read modify
 
 modify_str=$modify
@@ -28,6 +33,8 @@ for file in $(ls $dir); do
         if [ $modify -eq 0 ]; then
             mv $dir/$file $dir/$file_mod
         fi
-    fi 
+    elif [ -d $dir/$file ]; then
+		echo -e "$dir/$file\n$modify_str" | ./$0 $1 1
+	fi 
 done
 
