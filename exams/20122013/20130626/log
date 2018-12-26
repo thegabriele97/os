@@ -1,0 +1,476 @@
+++ ls .
++ for entry in $(ls $1)
++ '[' -d ./a.txt ']'
++ '[' -f ./a.txt ']'
+++ echo a.txt
+++ cut -f2 -d.
++ file_ext=txt
+++ echo a.txt
+++ cut -f1 -d.
++ file_name=a
++ '[' .txt = .txt ']'
++ IFS='
+'
++ cp ./a.txt ./a.dot
++ rm -f ./a.txt
+++ cat ./a.dot
++ for line in $(cat "$1/${file_name}.dot")
+++ echo m2asd
+++ cut -f1 -d ' '
++ first_word=m2asd
++ del=0
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 0 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 1 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 2 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 3 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 4 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 5 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 6 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 7 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 8 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo m2asd
++ for line in $(cat "$1/${file_name}.dot")
+++ echo asd
+++ cut -f1 -d ' '
++ first_word=asd
++ del=0
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 0 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 1 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 2 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 3 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 4 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 5 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 6 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 7 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 8 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo asd
++ for line in $(cat "$1/${file_name}.dot")
+++ echo 3
+++ cut -f1 -d ' '
++ first_word=3
++ del=0
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 0 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 1 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 2 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 3 ']'
++ del=1
++ break
++ '[' 1 -eq 1 ']'
++ for line in $(cat "$1/${file_name}.dot")
+++ echo asdrubale
+++ cut -f1 -d ' '
++ first_word=asdrubale
++ del=0
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 0 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 1 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 2 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 3 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 4 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 5 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 6 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 7 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 8 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo asdrubale
++ for line in $(cat "$1/${file_name}.dot")
+++ echo 23sdw
+++ cut -f1 -d ' '
++ first_word=23sdw
++ del=0
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 0 ']'
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 1 ']'
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 2 ']'
++ del=1
++ break
++ '[' 1 -eq 1 ']'
++ IFS=old_ifs
++ for entry in $(ls $1)
++ '[' -d ./b.txt ']'
++ '[' -f ./b.txt ']'
+++ echo b.txt
+++ cut -f2 -d.
++ file_ext=txt
+++ echo b.txt
+++ cut -f1 -d.
++ file_name=b
++ '[' .txt = .txt ']'
++ IFS='
+'
++ cp ./b.txt ./b.dot
++ rm -f ./b.txt
+++ cat ./b.dot
++ for line in $(cat "$1/${file_name}.dot")
+++ echo m2asd
+++ cut -f1 -d ' '
++ first_word=m2asd
++ del=0
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 0 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 1 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 2 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 3 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 4 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 5 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 6 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 7 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 8 ']'
++ for i in {0..9}
+++ echo m2asd
+++ cut -b1
++ '[' m = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo m2asd
++ for line in $(cat "$1/${file_name}.dot")
+++ echo asd
+++ cut -f1 -d ' '
++ first_word=asd
++ del=0
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 0 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 1 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 2 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 3 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 4 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 5 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 6 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 7 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 8 ']'
++ for i in {0..9}
+++ echo asd
+++ cut -b1
++ '[' a = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo asd
++ for line in $(cat "$1/${file_name}.dot")
+++ echo 3
+++ cut -f1 -d ' '
++ first_word=3
++ del=0
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 0 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 1 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 2 ']'
++ for i in {0..9}
+++ echo 3
+++ cut -b1
++ '[' 3 = 3 ']'
++ del=1
++ break
++ '[' 1 -eq 1 ']'
++ for line in $(cat "$1/${file_name}.dot")
+++ echo asdrubale
+++ cut -f1 -d ' '
++ first_word=asdrubale
++ del=0
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 0 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 1 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 2 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 3 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 4 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 5 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 6 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 7 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 8 ']'
++ for i in {0..9}
+++ echo asdrubale
+++ cut -b1
++ '[' a = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo asdrubale
++ for line in $(cat "$1/${file_name}.dot")
+++ echo 23sdw
+++ cut -f1 -d ' '
++ first_word=23sdw
++ del=0
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 0 ']'
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 1 ']'
++ for i in {0..9}
+++ echo 23sdw
+++ cut -b1
++ '[' 2 = 2 ']'
++ del=1
++ break
++ '[' 1 -eq 1 ']'
++ for line in $(cat "$1/${file_name}.dot")
+++ echo xdxdxdxdxdxd
+++ cut -f1 -d ' '
++ first_word=xdxdxdxdxdxd
++ del=0
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 0 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 1 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 2 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 3 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 4 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 5 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 6 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 7 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 8 ']'
++ for i in {0..9}
+++ echo xdxdxdxdxdxd
+++ cut -b1
++ '[' x = 9 ']'
++ '[' 0 -eq 1 ']'
++ echo xdxdxdxdxdxd
++ IFS=old_ifs
++ for entry in $(ls $1)
++ '[' -d ./dir ']'
++ ././e 5 1. h ./dir
+./es5_1.sh: line 16: ././e: No such file or directory
++ for entry in $(ls $1)
++ '[' -d ./es5_1.sh ']'
++ '[' -f ./es5_1.sh ']'
+++ echo e 5 1. h
+++ cut -f2 -d.
++ file_ext=' h'
+++ echo e 5 1. h
+++ cut -f1 -d.
++ file_name='e 5 1'
++ '[' '. h' = .txt ']'
++ IFS=old_ifs
++ for entry in $(ls $1)
++ '[' -d ./log ']'
++ '[' -f ./log ']'
+++ echo '' '' g
+++ cut -f2 -d.
++ file_ext='  g'
+++ echo '' '' g
+++ cut -f1 -d.
++ file_name='  g'
++ '[' '.  g' = .txt ']'
++ IFS=old_ifs

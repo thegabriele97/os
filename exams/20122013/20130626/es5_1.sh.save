@@ -1,0 +1,40 @@
+#!/bin/bash
+
+if ! [ $# -eq 1 ]; then
+	exit 1
+fi
+
+old_ifs=$IFS
+new_ifs="
+"
+
+for entry in $($1/ls); do
+	
+	if [ -d "$1/$entry" ]; then
+		./$0 "$1/$entry"
+	elif [ -f "$1/$entry" ]; then
+		file_ext=$(echo $entry | cut -f2 -d.)
+		file_out="$(echo $entry | cut -f1 -d.).dot"
+		
+		if [ "$file_ext" -eq ".txt" ]; then
+			IFS=$new_ifs
+			
+			for line in $(cat "$1/$entry"); do
+				first_word=$(echo $line | cut -f1 -d " ")
+				del=1				
+				
+				for i in {0..9}; do
+					if [ "$(echo $first_word | cut -b1)" -eq 1 ]; then
+						del=0
+						break;
+					fi
+				done
+
+				if ! [ $del ]; then
+					
+				fi
+			done
+		fi 
+	fi
+
+done
