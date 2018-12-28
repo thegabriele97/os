@@ -1,0 +1,628 @@
+.:
+total 72
+drwxr-xr-x  7 gabriele97 gabriele97 4096 dic 27 10:01 .
+drwxr-xr-x 33 gabriele97 gabriele97 4096 dic 25 22:59 ..
+-rwxr-xr-x  1 gabriele97 gabriele97 8472 dic 16 18:18 a.out
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic 26 13:55 c
+drwxr-xr-x  5 gabriele97 gabriele97 4096 dic  2 12:57 CLib
+-rw-r--r--  1 gabriele97 gabriele97   62 dic 26 13:54 file
+-rw-r--r--  1 gabriele97 gabriele97  214 dic 26 13:28 main2.c
+-rw-r--r--  1 gabriele97 gabriele97  214 dic 16 18:18 main.c
+lrwxrwxrwx  1 gabriele97 gabriele97   20 ott 26 19:39 os -> /home/gabriele97/os/
+-rw-r--r--  1 gabriele97 gabriele97    0 dic 27 10:01 out
+-rw-r--r--  1 gabriele97 gabriele97   50 dic 27 10:01 script2.sh
+-rwxr-xr-x  1 gabriele97 gabriele97   62 dic 26 13:48 script3.sh
+-rwxr-xr-x  1 gabriele97 gabriele97  277 dic 16 12:43 script.sh
+drwxr-xr-x  3 gabriele97 gabriele97 4096 nov 13 17:58 test
+drwxr-xr-x  3 gabriele97 gabriele97 4096 dic 23 16:08 test 2
+drwxr-xr-x  3 gabriele97 gabriele97 4096 dic 26 23:01 test3
+-rw-r--r--  1 gabriele97 gabriele97  100 dic 16 12:43 text
+-rw-r--r--  1 gabriele97 gabriele97   76 dic 16 12:43 text.xyx
+
+./c:
+total 20
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic 26 13:55 .
+drwxr-xr-x 7 gabriele97 gabriele97 4096 dic 27 10:01 ..
+-rw-r--r-- 1 gabriele97 gabriele97  214 dic 26 13:55 main2.c
+-rw-r--r-- 1 gabriele97 gabriele97  214 dic 26 13:54 main.c
+-rwxr-xr-x 1 gabriele97 gabriele97  366 dic 26 13:54 script2.sh
+
+./CLib:
+total 68
+drwxr-xr-x 5 gabriele97 gabriele97  4096 dic  2 12:57 .
+drwxr-xr-x 7 gabriele97 gabriele97  4096 dic 27 10:01 ..
+drwxr-xr-x 3 gabriele97 gabriele97  4096 dic  1 15:05 bin
+drwxr-xr-x 8 gabriele97 gabriele97  4096 dic  2 12:58 .git
+-rw-r--r-- 1 gabriele97 gabriele97     8 dic  1 15:22 .gitignore
+-rw-r--r-- 1 gabriele97 gabriele97 35149 dic  1 14:53 LICENSE
+-rw-r--r-- 1 gabriele97 gabriele97   300 dic  1 15:07 makefile
+-rw-r--r-- 1 gabriele97 gabriele97   207 dic  2 12:57 README.md
+drwxr-xr-x 3 gabriele97 gabriele97  4096 dic  1 14:54 source
+
+./CLib/bin:
+total 12
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 15:05 .
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  2 12:57 ..
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:25 waitsig
+
+./CLib/bin/waitsig:
+total 16
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:25 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 15:05 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:55 include
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:56 lib
+
+./CLib/bin/waitsig/include:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:55 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:25 ..
+-rw-r--r-- 1 gabriele97 gabriele97   67 dic  2 12:56 waitsig.h
+
+./CLib/bin/waitsig/lib:
+total 16
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:56 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:25 ..
+-rwxr-xr-x 1 gabriele97 gabriele97 7928 dic  2 12:56 libwaitsig.so
+
+./CLib/.git:
+total 64
+drwxr-xr-x  8 gabriele97 gabriele97 4096 dic  2 12:58 .
+drwxr-xr-x  5 gabriele97 gabriele97 4096 dic  2 12:57 ..
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 branches
+-rw-r--r--  1 gabriele97 gabriele97   25 dic  2 12:57 COMMIT_EDITMSG
+-rw-r--r--  1 gabriele97 gabriele97  266 dic  1 14:53 config
+-rw-r--r--  1 gabriele97 gabriele97   73 dic  1 14:53 description
+-rw-r--r--  1 gabriele97 gabriele97   99 dic  2 12:57 FETCH_HEAD
+-rw-r--r--  1 gabriele97 gabriele97   23 dic  1 14:53 HEAD
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 hooks
+-rw-r--r--  1 gabriele97 gabriele97  988 dic  2 12:58 index
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 info
+drwxr-xr-x  3 gabriele97 gabriele97 4096 dic  1 14:53 logs
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 objects
+-rw-r--r--  1 gabriele97 gabriele97   41 dic  2 12:57 ORIG_HEAD
+-rw-r--r--  1 gabriele97 gabriele97  114 dic  1 14:53 packed-refs
+drwxr-xr-x  5 gabriele97 gabriele97 4096 dic  1 14:53 refs
+
+./CLib/.git/branches:
+total 8
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+
+./CLib/.git/hooks:
+total 56
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+-rwxr-xr-x 1 gabriele97 gabriele97  478 dic  1 14:53 applypatch-msg.sample
+-rwxr-xr-x 1 gabriele97 gabriele97  896 dic  1 14:53 commit-msg.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 3327 dic  1 14:53 fsmonitor-watchman.sample
+-rwxr-xr-x 1 gabriele97 gabriele97  189 dic  1 14:53 post-update.sample
+-rwxr-xr-x 1 gabriele97 gabriele97  424 dic  1 14:53 pre-applypatch.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 1642 dic  1 14:53 pre-commit.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 1492 dic  1 14:53 prepare-commit-msg.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 1348 dic  1 14:53 pre-push.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 4898 dic  1 14:53 pre-rebase.sample
+-rwxr-xr-x 1 gabriele97 gabriele97  544 dic  1 14:53 pre-receive.sample
+-rwxr-xr-x 1 gabriele97 gabriele97 3610 dic  1 14:53 update.sample
+
+./CLib/.git/info:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+-rw-r--r-- 1 gabriele97 gabriele97  240 dic  1 14:53 exclude
+
+./CLib/.git/logs:
+total 16
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+-rw-r--r-- 1 gabriele97 gabriele97 1341 dic  2 12:58 HEAD
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 14:53 refs
+
+./CLib/.git/logs/refs:
+total 16
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 heads
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 remotes
+
+./CLib/.git/logs/refs/heads:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 14:53 ..
+-rw-r--r-- 1 gabriele97 gabriele97 1341 dic  2 12:58 master
+
+./CLib/.git/logs/refs/remotes:
+total 12
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 14:53 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 15:21 origin
+
+./CLib/.git/logs/refs/remotes/origin:
+total 16
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 ..
+-rw-r--r-- 1 gabriele97 gabriele97  210 dic  1 14:53 HEAD
+-rw-r--r-- 1 gabriele97 gabriele97 1030 dic  2 12:58 master
+
+./CLib/.git/objects:
+total 220
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x  8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 00
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 03
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 05
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 06
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:58 0f
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 14
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 15
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 22
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 23
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 29
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:28 2e
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 33
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 3a
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 3d
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 40
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 41
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 44
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 49
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 4c
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 5a
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 5f
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 63
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 65
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 66
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 67
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 6a
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 72
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 75
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 7d
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 7f
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 80
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 90
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 96
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 9c
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 9d
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 a7
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 b2
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 c9
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 cc
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 cd
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 d2
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 d3
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 d5
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 de
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 e0
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 e1
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 e3
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 e4
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 e6
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 e8
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 f2
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 info
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 pack
+
+./CLib/.git/objects/00:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  211 dic  2 12:57 4d531c0bd57a0bf50263e911daa2f6a31c940d
+
+./CLib/.git/objects/03:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  573 dic  2 12:57 ca98348e0bb58e380feea759b5ec6b24939ce7
+
+./CLib/.git/objects/05:
+total 16
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97 2347 dic  2 12:57 cd733d443bb359023add34c0116cc44fcf756e
+-r--r--r--  1 gabriele97 gabriele97   50 dic  1 15:23 cef70da5116d5eff7fa312f32e7993f1d9258c
+
+./CLib/.git/objects/06:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97 2802 dic  1 15:21 d32089a4591165ae16074a9ca449e6464694b3
+
+./CLib/.git/objects/0f:
+total 16
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:58 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   49 dic  2 12:57 3b191ac91c2ab9eeec45e2dd9a4bf09ce672ce
+-r--r--r--  1 gabriele97 gabriele97  280 dic  2 12:58 c3594096e8b5a98fcc35e51bfc3e6f4e9c5e60
+
+./CLib/.git/objects/14:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   54 dic  1 15:21 d37be73392ceab63470ccb4f3a3818b543ba38
+
+./CLib/.git/objects/15:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  112 dic  1 15:23 2dc98c6d91fdbed65fe4d909df93cb0944a47d
+
+./CLib/.git/objects/22:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  186 dic  2 12:57 4fb3060735f674a3b6b5643a2f104ca905f309
+
+./CLib/.git/objects/23:
+total 20
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   76 dic  1 15:25 4ecbfa322c5a463dcc6257ab03a2507c62f9be
+-r--r--r--  1 gabriele97 gabriele97   49 dic  1 15:21 de56628a16b8cf1e2ea46e6cbae370e4232dad
+-r--r--r--  1 gabriele97 gabriele97  210 dic  2 12:57 f7ac671c04a7e8e53b3c9dd86ee9a49c969567
+
+./CLib/.git/objects/29:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  235 dic  1 15:21 24b96a51c420a05f72ad789d8b71f98adee64c
+
+./CLib/.git/objects/2e:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:28 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  432 dic  1 15:28 8cc6b4f8add8c0e909e1f164f6ec670e3b2998
+
+./CLib/.git/objects/33:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  435 dic  1 15:21 89ff4a5cc4c7b383c745ed23e6f16fbd3f34b1
+
+./CLib/.git/objects/3a:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  211 dic  1 15:25 ace45846ad8add170b6c5f4c5a8753db30fa36
+
+./CLib/.git/objects/3d:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   49 dic  1 15:25 cb093e986356b2874c9b83a9f71e0b27b05b42
+
+./CLib/.git/objects/40:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  212 dic  2 12:57 0a4e871883cf8751e399aa4b780da0effaccd4
+
+./CLib/.git/objects/41:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   50 dic  1 15:33 624e2619b8f7c40e6b81779a26ff7d05fbce86
+
+./CLib/.git/objects/44:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  190 dic  1 15:33 61bbf477895c4dd5bc5566f7e9a5bbc1f9898a
+
+./CLib/.git/objects/49:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  454 dic  1 15:21 479b3176e09c6029480ceaeb2fbb551ef1d529
+
+./CLib/.git/objects/4c:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  143 dic  1 15:21 ed32dc36c3c95b1f5763f86fe92e56b38cd16d
+
+./CLib/.git/objects/5a:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  185 dic  2 12:57 12c1430db24e9bcc8d1be5ea7f587c39433826
+
+./CLib/.git/objects/5f:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   62 dic  1 15:21 94f349c4e57bc3cba9905813223a7014fc1c89
+
+./CLib/.git/objects/63:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  162 dic  1 15:21 3b80855c0473cd6dfd3ef68b21faae158d6f03
+
+./CLib/.git/objects/65:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   71 dic  2 12:57 505fd09dbb6635683dcebe7046083ca2d50305
+
+./CLib/.git/objects/66:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   49 dic  2 12:57 a5ed19ed222d4fdd437574f49b031f7d319463
+
+./CLib/.git/objects/67:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  574 dic  2 12:57 bcfcc4b848571eb8db899f6868a1bf43b7bab3
+
+./CLib/.git/objects/6a:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   57 dic  2 12:57 5cce8f03abe2043cbfe0c14415298ff3ed04b1
+
+./CLib/.git/objects/72:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   23 dic  1 15:23 2d5e71d93ca0aa0db6fd22452e46be5604a84d
+
+./CLib/.git/objects/75:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  110 dic  1 15:21 ca726e15bdd647a871e64868ce1aa1ad9e6a4d
+
+./CLib/.git/objects/7d:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  211 dic  1 15:23 764a9a7d7b4894f2129dbfc518a668bbc07959
+
+./CLib/.git/objects/7f:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  164 dic  2 12:57 efce88fb78155d22ed37275e642aa16e394906
+
+./CLib/.git/objects/80:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   85 dic  1 14:53 861c2abbd2c73fecf1d545ab1c8b4ac38ab637
+
+./CLib/.git/objects/90:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   54 dic  2 12:57 f48e00d534809146acdcf5341648b6008e08ff
+
+./CLib/.git/objects/96:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  537 dic  1 14:53 bbc703f72ba8d8540ad56519138b32f4fb5eaa
+
+./CLib/.git/objects/9c:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  172 dic  2 12:57 a4960f8d79eeac4efbaab3fded0124bc530bca
+
+./CLib/.git/objects/9d:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   68 dic  1 14:53 ab7419185a1151792b0e0ff281c797d648aa99
+
+./CLib/.git/objects/a7:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   58 dic  1 15:21 27ed87455e15a686f7619dc7c64671ec75c458
+
+./CLib/.git/objects/b2:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   76 dic  2 12:57 5887378d780421770de0b787c42914408cd8b9
+
+./CLib/.git/objects/c9:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   76 dic  2 12:57 fc994f0b445d643887ffa185ee42f729c44329
+
+./CLib/.git/objects/cc:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  211 dic  1 15:33 e302f184dcd7372b747e4fd11dfeaa716a0b93
+
+./CLib/.git/objects/cd:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  177 dic  1 15:21 9b7258c831a025551803eb64ae8182ef4407b4
+
+./CLib/.git/objects/d2:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   54 dic  1 15:33 099b9d255e8fd3082ac99275ec076a62dc9597
+
+./CLib/.git/objects/d3:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97 2951 dic  1 15:21 bef5b48b5a7b2b8e47ca778f61ada890d4dab1
+
+./CLib/.git/objects/d5:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:25 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  175 dic  1 15:25 78f0bcff5203c5234750faab099a26ae3c5a1c
+
+./CLib/.git/objects/de:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:23 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  180 dic  1 15:23 80463e345ecfd5e3d15ca990fd016630eb21c8
+
+./CLib/.git/objects/e0:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  211 dic  2 12:57 83ab49c74b4bdeea2e4128f73fdf6d38120d09
+
+./CLib/.git/objects/e1:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:33 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   77 dic  1 15:33 072e9d9431f4c5890696e31daf859feeee6dbc
+
+./CLib/.git/objects/e3:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  159 dic  1 15:21 6fd5017b8a7aa4a85ab842314d9c6cc9ca02d6
+
+./CLib/.git/objects/e4:
+total 16
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  2 12:57 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  188 dic  1 15:21 1a83c214cf71c17e6094c42f72078702540224
+-r--r--r--  1 gabriele97 gabriele97   53 dic  2 12:57 928462348912f41e20628e7270692e5b4e87ed
+
+./CLib/.git/objects/e6:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97   49 dic  1 15:21 9ccb39d73d2b6b6edbeeadcf3218f94bac703c
+
+./CLib/.git/objects/e8:
+total 12
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 15:21 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97  119 dic  1 15:21 48a2b416928e48fb69ad8eb2219fed22ae6392
+
+./CLib/.git/objects/f2:
+total 24
+drwxr-xr-x  2 gabriele97 gabriele97  4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97  4096 dic  2 12:57 ..
+-r--r--r--  1 gabriele97 gabriele97 14219 dic  1 14:53 88702d2fa16d3cdf0035b15a9fcbc552cd88e7
+
+./CLib/.git/objects/info:
+total 8
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+
+./CLib/.git/objects/pack:
+total 8
+drwxr-xr-x  2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 55 gabriele97 gabriele97 4096 dic  2 12:57 ..
+
+./CLib/.git/refs:
+total 20
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 8 gabriele97 gabriele97 4096 dic  2 12:58 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:58 heads
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 remotes
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 tags
+
+./CLib/.git/refs/heads:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:58 .
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  1 14:53 ..
+-rw-r--r-- 1 gabriele97 gabriele97   41 dic  2 12:58 master
+
+./CLib/.git/refs/remotes:
+total 12
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  1 14:53 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:58 origin
+
+./CLib/.git/refs/remotes/origin:
+total 16
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:58 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:53 ..
+-rw-r--r-- 1 gabriele97 gabriele97   32 dic  1 14:53 HEAD
+-rw-r--r-- 1 gabriele97 gabriele97   41 dic  2 12:58 master
+
+./CLib/.git/refs/tags:
+total 8
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:53 .
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  1 14:53 ..
+
+./CLib/source:
+total 12
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:54 .
+drwxr-xr-x 5 gabriele97 gabriele97 4096 dic  2 12:57 ..
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:28 waitsig
+
+./CLib/source/waitsig:
+total 16
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:28 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic  1 14:54 ..
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:55 include
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:55 src
+
+./CLib/source/waitsig/include:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  1 14:55 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:28 ..
+-rw-r--r-- 1 gabriele97 gabriele97   67 dic  1 14:53 waitsig.h
+
+./CLib/source/waitsig/src:
+total 12
+drwxr-xr-x 2 gabriele97 gabriele97 4096 dic  2 12:55 .
+drwxr-xr-x 4 gabriele97 gabriele97 4096 dic  1 15:28 ..
+-rw-r--r-- 1 gabriele97 gabriele97  322 dic  2 12:55 waitsig.c
+
+./test:
+total 32
+drwxr-xr-x 3 gabriele97 gabriele97  4096 nov 13 17:58 .
+drwxr-xr-x 7 gabriele97 gabriele97  4096 dic 27 10:01 ..
+-rwxrwxr-x 1 gabriele97 gabriele97 16200 nov 13 17:58 a.out
+-rw-r--r-- 1 gabriele97 gabriele97  1440 nov 13 17:58 main.c
+drwxr-xr-x 2 gabriele97 gabriele97  4096 nov 13 09:38 .vscode
+
+./test/.vscode:
+total 20
+drwxr-xr-x 2 gabriele97 gabriele97 4096 nov 13 09:38 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 nov 13 17:58 ..
+-rw-r--r-- 1 gabriele97 gabriele97  880 nov  8 21:11 launch.json
+-rw-rw-r-- 1 gabriele97 gabriele97   60 nov 13 09:38 settings.json
+-rw-r--r-- 1 gabriele97 gabriele97  382 nov  8 21:11 tasks.json
+
+./test 2:
+total 36
+drwxr-xr-x 3 gabriele97 gabriele97  4096 dic 23 16:08 .
+drwxr-xr-x 7 gabriele97 gabriele97  4096 dic 27 10:01 ..
+-rwxrwxr-x 1 gabriele97 gabriele97 16648 dic 23 16:08 a.out
+-rw-r--r-- 1 gabriele97 gabriele97  1597 dic 23 16:08 main.c
+drwxr-xr-x 2 gabriele97 gabriele97  4096 nov 13 09:38 .vscode
+
+./test 2/.vscode:
+total 20
+drwxr-xr-x 2 gabriele97 gabriele97 4096 nov 13 09:38 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic 23 16:08 ..
+-rw-r--r-- 1 gabriele97 gabriele97  880 nov  8 21:11 launch.json
+-rw-rw-r-- 1 gabriele97 gabriele97   60 nov 13 09:38 settings.json
+-rw-r--r-- 1 gabriele97 gabriele97  392 dic 19 11:50 tasks.json
+
+./test3:
+total 28
+drwxr-xr-x 3 gabriele97 gabriele97  4096 dic 26 23:01 .
+drwxr-xr-x 7 gabriele97 gabriele97  4096 dic 27 10:01 ..
+-rwxr-xr-x 1 gabriele97 gabriele97 11440 dic 26 23:01 a.out
+-rw-r--r-- 1 gabriele97 gabriele97   646 dic 26 23:01 main.c
+drwxr-xr-x 2 gabriele97 gabriele97  4096 nov 13 09:38 .vscode
+
+./test3/.vscode:
+total 20
+drwxr-xr-x 2 gabriele97 gabriele97 4096 nov 13 09:38 .
+drwxr-xr-x 3 gabriele97 gabriele97 4096 dic 26 23:01 ..
+-rw-r--r-- 1 gabriele97 gabriele97  880 nov  8 21:11 launch.json
+-rw-rw-r-- 1 gabriele97 gabriele97   60 nov 13 09:38 settings.json
+-rw-r--r-- 1 gabriele97 gabriele97  392 dic 19 11:50 tasks.json
